@@ -47,6 +47,13 @@ public interface Entity extends Metadatable {
     public Vector getVelocity();
 
     /**
+     * Returns true if this entity is resting on the ground
+     *
+     * @return true if entity is resting on the ground
+     */
+    public boolean isOnGround();
+
+    /**
      * Gets the current world this entity resides in
      *
      * @return World
